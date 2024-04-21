@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YHA Lulworth Cove</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>YHA Lulworth Cove</h1>
+  </header>
+  <div class="container">
+    <h1>Saturday 20 April</h1>
+    <div class="gallery-container" id="slideshow1">
+      <div class="gallery" id="imageGallery1"></div>
+      <div class="slideshow-controls" id="controls1">
+        <button class="control-btn" onclick="plusDivs(-1, 'slideshow1', 'controls1')">&#10094;</button>
+        <button class="control-btn" onclick="plusDivs(1, 'slideshow1', 'controls1')">&#10095;</button>
+      </div>
+      <div class="slide-indicators" id="indicators1"></div>
+    </div>
+
+    <h1>Sunday 21 April</h1>
+    <div class="gallery-container" id="slideshow2">
+      <div class="gallery" id="imageGallery2"></div>
+      <div class="slideshow-controls" id="controls2">
+        <button class="control-btn" onclick="plusDivs(-1, 'slideshow2', 'controls2')">&#10094;</button>
+        <button class="control-btn" onclick="plusDivs(1, 'slideshow2', 'controls2')">&#10095;</button>
+      </div>
+      <div class="slide-indicators" id="indicators2"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
